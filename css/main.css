@@ -28,6 +28,7 @@ body {
   background-image: linear-gradient(to bottom, #e2e2e2, #ccc);
   text-align: center;
   color: #333;
+  position: relative;
 }
 
 .song {
@@ -43,7 +44,8 @@ body {
 }
 
 .album {
-
+ width: 50px;
+ position: absolute;
 }
 
 .time {
@@ -58,6 +60,11 @@ body {
   -moz-appearance: none;
   border: 0;
   background-color: #aaa;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: calc(100% - 50px);
+
 }
 
 /*
