@@ -44,10 +44,10 @@ body {
 }
 
 .album {
- width: 50px;
- position: absolute;
- left: 0;
- top: 0;
+  width: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .time-bar {
